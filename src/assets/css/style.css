@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(80, 80, 80);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cardInfo {
+    margin-top: 5%;
+    width: 100%;
+    max-width: 1000px;
+    border: white solid 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*headr*/
+.userInfo {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-top: 2%;
+    padding-left: 2%;
+    gap: 10px;
+}
+
+.profilePhoto {
+    width: 70px;
+    overflow: hidden;
+    border-radius: 100%;
+
+}
+
+.profileName {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 500;
+}
+
+.profilePseudonym {
+    color: grey;
+    font-size: 18px;
+}
+
+.date {
+    color: grey;
+}
+
+/*main*/
+.content {
+    padding: 10px;
+}
+
+.comment {
+    text-align: left;
+    padding: 2%;
+}
+
+.img {
+    border-radius: 30px;
+}
